@@ -1,0 +1,23 @@
+# Core dependencies
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+
+# Machine Learning libraries
+scikit-learn==1.2.0
+
+# Deep Learning frameworks
+tensorflow==2.10.0    # or 
+torch==1.13.1         # choose one of the deep learning frameworks
+
+# Data Visualization
+matplotlib==3.6.3
+seaborn==0.12.2
+plotly==5.11.0
+
+# Model Tracking and Experimentation
+wandb==0.13.9
+
+# Data Processing
+opencv-python==4.7.0.72
+Pillow==9.4.0
