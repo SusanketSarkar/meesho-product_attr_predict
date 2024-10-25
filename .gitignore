@@ -1,0 +1,116 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and temporary files
+*.log
+logs/
+*.out
+*.err
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment / Dependency files
+venv/
+env/
+.venv/
+.env
+.env.*
+
+# Pyre type checker
+.pyre/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# Test outputs
+test-results/
+.junit/
+*.xml
+
+# Data files
+data/raw/
+data/processed/
+data/interim/
+
+# Model checkpoints and saved models
+models/
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.pkl
+checkpoints/
+
+# TensorBoard or other log files
+logs/
+*.tensorboard
+*.tfevents.*
+
+# Docker files
+*.container
+docker-compose.override.yml
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python package files
+*.egg-info/
+.eggs/
+*.egg
+*.wheel
+
+# Machine learning experiment tracking
+mlruns/         # MLflow
+wandb/          # Weights & Biases
+lightning_logs/ # PyTorch Lightning
+neptune/
+
+# Temporary and backup files
+*.bak
+*.swp
+*~
+
+# DVC (Data Version Control) cache directory
+.dvc/
+*.dvc
+
+# Ignore large dataset files
+*.csv
+*.tsv
+*.json
+*.parquet
+*.zip
+*.gz
+*.tar
+
+# Build and dist files
+build/
+dist/
+
+# Git LFS (optional) - if using large files
+*.lfs
+
+# HDF5 files (if used in deep learning)
+*.h5
