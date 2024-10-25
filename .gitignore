@@ -92,10 +92,6 @@ neptune/
 *.swp
 *~
 
-# DVC (Data Version Control) cache directory
-.dvc/
-*.dvc
-
 # Ignore large dataset files
 *.csv
 *.tsv
